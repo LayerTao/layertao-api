@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.env
+venv*/
+\.venv/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Django stuff (if any)
+*.log
+local_settings.py
+
+# FastAPI / Starlette
+# (No special files, but ignore envs and caches)
+
+# Editor and OS files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Secret keys
+*.pem
+*.key
+
+# Bittensor temporary wallet files
+tmpwallet/
+tmp/
