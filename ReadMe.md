@@ -8,25 +8,30 @@
 <br>✅ Placeholder structure for subnet integrations
 
 ## Project Structure
-
+```
 ~/layertao-api/
-├── .env
-├── .env.example
-├── requirements.txt
-├── run.py
-└── app/
-├── **init**.py
-├── main.py
-├── config.py
-├── dependencies.py
-├── routers/
-│ ├── **init**.py
-│ ├── welcome.py
-│ ├── health.py
-│ └── subnet.py # Placeholder for subnet endpoints
-└── services/
-├── **init**.py
-└── bittensor_service.py
+    ├── .env.example
+    ├── .gitignore
+    ├── requirements.txt
+    ├── ReadMe.md
+    ├── run.py
+    └── app/
+        ├── __init__.py
+        ├── main.py
+        ├── config.py
+        ├── dependencies.py
+        ├── routers/
+        │   ├── __init__.py
+        │   ├── welcome.py
+        │   ├── health.py
+        │   ├── subnet.py        
+        │   └── inference.py
+        ├── services/
+        │   ├── __init.py
+        │   └── bittensor_service.py
+        └── test/
+            └── test_wallet_path_normalization.py
+```
 
 ### Pre-requisites 
 
